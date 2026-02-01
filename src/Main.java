@@ -26,6 +26,7 @@ public class Main {
         // Enquanto a palavra não for descoberta...
         // ou ainda houverem tentativas restantes, o programa continua.
         while (!palavraFoiDescoberta && tentativas > 0) {
+            System.out.println();
             System.out.println("Palavra: " + letrasDescobertas);
             System.out.print("Chute uma letra: ");
             char chute = scanner.next().charAt(0);
